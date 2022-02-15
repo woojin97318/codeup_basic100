@@ -3,6 +3,7 @@ package codeup_basic100;
 public class TestClass {
 
 	public static void main(String[] args) {
-		System.out.println(1/10);
+		boolean a = true;
+		System.out.println(!a);
 	}
 }

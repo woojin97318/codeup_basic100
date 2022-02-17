@@ -2,12 +2,18 @@ package codeup_basic100.q1060_1069;
 
 import java.util.Scanner;
 
-public class Q1060 {
+public class Q1065 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		System.out.println(a & b);
+		int c = sc.nextInt();
+		if(a % 2 == 0)
+			System.out.println(a);
+		if(b % 2 == 0)
+			System.out.println(b);
+		if(c % 2 == 0)
+			System.out.println(c);
 	}
 }

@@ -1,12 +1,12 @@
-package codeup_basic100;
+package codeup_basic100.q1020_1029;
 
 import java.util.Scanner;
 
-public class TestClass {
+public class Q1022 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt(2);
-		System.out.println(n);
+		String str = sc.nextLine();
+		System.out.println(str);
 	}
 }
